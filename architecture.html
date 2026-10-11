@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Arch</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <script src="bootstrap.js"></script>
+</head>
+
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ATELIER ARCHITECTURE</a>
+            <ul class="navbar-nav mx-auto gap-4"><!--mx-auto to be in center & gap-4 kermel nba3ed lkalemet aan baaed-->
+                <li class="nav-item">
+                    <!--active yaane khat tahet kelmet home w border kermel ybayen lkhat w ykoun smek shway-->
+                    <a class="nav-link active border-bottom border-2 border-dark" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Home page-->
+    <section class="hero-section position-relative d-flex align-items-center"
+        style="background-image: url(images/arch1.jpeg); background-size: cover;background-position: center;min-height: 85vh;">
+        <!--hero yaane full background image ma3 paragraph w kel she fou2 l image-->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <img src="images/arch1.jpeg" alt="arch image" class="img-fluid">
+                </div>
+
+                <div class="col-md-5">
+                    <span class="text-uppercase">NEW COLLECTION</span>
+                    <h1 class="display-4 fw-normal my-2">Simplicity in<br>every detail.</h1>
+                    <a href="#" class="btn btn-dark px-4">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!--Shop page-->
+    <!--card 1-->
+    <h1 style="text-align: center;">SHOP NOW</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card h-80">
+                <img class="card-img-top square-img" src="images/arch3.jpeg" alt="Card image" height="500px">
+
+                <div class="card-body">
+                    <h4 class="card-title"><b>Minimalist Living</b></h4>
+                    <p class="card-text">Sculptural fruniture and refined spatial balance.</p>
+                    <a href="#" class="btn btn-dark">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!--card 2-->
+        <div class="col-md-4">
+            <div class="card h-80">
+                <img class="card-img-top object-fit-cover" src="images/arch2.jpeg" alt="Card image" height="500px">
+
+                <div class="card-body">
+                    <h4 class="card-title"><b>Organic Lighting</b></h4>
+                    <p class="card-text">Soft ambient illumination.</p>
+                    <a href="#" class="btn btn-dark">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!--card 3-->
+        <div class="col-md-4">
+            <div class="card h-80">
+                <img class="card-img-top object-fit-cover" src="images/arch4.jpeg" alt="Card image" height="500px">
+
+                <div class="card-body">
+                    <h4 class="card-title"><b>Neutral Ceramic</b></h4>
+                    <p class="card-text">Handcrafted elements designed for quiet luxury.</p>
+                    <a href="#" class="btn btn-dark">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--about us page-->
+    <section class="hero-section py-5" style="background-color: rgb(237, 220, 198);">
+        <!--hero yaane full background image ma3 paragraph w kel she fou2 l image-->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <span class="text-uppercase">
+                        <highlight>ABOUT US</highlight>
+                    </span>
+                    <h1 class="display-4 fw-normal my-2">At living standard, we believe that<br>the true luxury lies
+                        in<br>the smallest details.</h1>
+                    <a href="#" class="btn btn-dark px-4">View Catalog</a>
+                </div>
+
+                <div class="col-md-7">
+                    <img src="images/arch5.jpeg" alt="arch image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!--contact page-->
+    <div class="container mt-3">
+        <h2>CONTACT US</h2>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Enter your name" name="text">
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control" placeholder="Enter your email" name="email">
+                </div>
+                <div class="container mt-3">
+                    <h2>Additional Notes?</h2>
+                    <p>If you have a specific thoughts or ideas, tap here and share your comment:</p>
+                    <form action="/action_page.php">
+                        <div class="form-floating mb-3 mt-3">
+                            <textarea class="form-control" id="comment" name="text"
+                                placeholder="Comment goes here"></textarea>
+                            <label for="comment">Comments</label>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br>
+    <!--footer-->
+    <footer class="text-center py-4 my-0 fixed-bottom" style="background-color: rgb(237, 220, 198);">
+        <div class="container">
+            <p class="mb-0">&copy;2026 ATELIER ARCHITECTURE. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
